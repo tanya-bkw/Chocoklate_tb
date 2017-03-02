@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  //display: block;
+}
+
+body {
+  background-color: black;
+  display: block;
+  font-family: Arial, Verdana, sans-serif;
+
+// dla pozbycia sie marginesow przegladarki
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.location, .food {
+  background-color: white;
+}
