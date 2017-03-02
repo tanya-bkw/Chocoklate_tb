@@ -1,59 +1,21 @@
-/* ------------------- Zadanie 1 ------------------ */
-
-.panel {
-  font-size: 40px;
-    p {
-      font-size: 0.5em;
-  }
+* {
+  box-sizing: border-box;
+  //display: block;
 }
 
+body {
+  width: 896px;
+  background-color: black;
+  display: block;
+  font-family: Arial, Verdana, sans-serif;
 
-/* ------------------- Zadanie 2 ------------------ */
-.bg_box {
-  .box {
-    font-size: 2em;
-    width: 1.5em; // 40px = 1em, 60px = 1.5em??? */
- }
+// dla pozbycia sie marginesow przegladarki
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
 
-/* ------------------- Zadanie 3 ------------------ */
-.container {
-  font-size: 8px;
-    p {
-      font-size: 3rem;
-  }
+.location, .food {
+  background-color: white;
 }
-
-/* ------------------- Zadanie 4 ------------------ */
-.container {
-  p {
-  .wolf_text {
-    border: 1px solid black;
-    width: 10rem; // font-size dla .container p jest po Zadaniu 3 24px
-    }
-  }
-}
-
-/* ------------------- Zadanie 5 ------------------ */
-.winnie_the_pooh {
-  font-size: 10px;
-    blockquote {
-      font-size: 300%; // 30px
-  }
-}
-
-/* ------------------- Zadanie 6 ------------------ */
-.images {
-  border: 1px solid black;
-  height: 80%;
-    .img_one {
-      border: 1px solid black;
-      background-image: image("/images/cat.jpg");
-      height: 30%;
-  }
-}
-
-
-/* ------------------- Zadanie 7 ------------------ */
-
-//9-10 dodac margin left i right, top i bottom
